@@ -19,6 +19,8 @@
 /// 设置当前viewcontroller的导航栏颜色
 @property (nonatomic, strong) UIColor *ss_prefersnavigationBarColor;
 
+/// 设置当前viewcontroller临时导航栏透明度
+- (void)ss_setNavigationTempAlpha:(CGFloat)alpha;
 @end
 
 @interface UINavigationController (SSNavigationManager)

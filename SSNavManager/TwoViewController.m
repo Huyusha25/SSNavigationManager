@@ -10,7 +10,6 @@
 #import "UINavigationController+SSNavigationManager.h"
 
 @interface TwoViewController ()
-
 @end
 
 @implementation TwoViewController
@@ -18,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.ss_prefersnavigationBarColor = [UIColor yellowColor];
-    self.ss_prefersNavigationBarAlpha = 0;
+  
 }
 
 /*

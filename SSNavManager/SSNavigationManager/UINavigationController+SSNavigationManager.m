@@ -98,6 +98,11 @@ typedef void (^_ssVcWillAppearBlock)(UIViewController *viewController, BOOL anim
     
 }
 
+- (void)ss_setNavigationTempAlpha:(CGFloat)alpha
+{
+    [self _ss_setNavigationBarColor:self.ss_prefersnavigationBarColor ? self.ss_prefersnavigationBarColor : self.navigationController.ss_navigationBarMainColor alpha:alpha];
+}
+
 - (UIColor *)getColorForBaseColor:(UIColor *)color alpha:(CGFloat)newAlpha
 {
     CGFloat red = 0.0;
