@@ -1,5 +1,8 @@
 # SSNavigationManager
 Navigation简单的导航控制
+## cocoapods导入
+pod 'SSNavigationManager'
+
 ### 演示图
 ![image](https://github.com/Huyusha25/SSNavigationManager/blob/master/push.gif )
 ### 使用示例
