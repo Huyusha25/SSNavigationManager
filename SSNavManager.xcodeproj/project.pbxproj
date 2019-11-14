@@ -8,14 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		4C5C1E5D237CE8D5008B7382 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C1E5C237CE8D5008B7382 /* AppDelegate.m */; };
-		4C5C1E60237CE8D5008B7382 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C1E5F237CE8D5008B7382 /* SceneDelegate.m */; };
 		4C5C1E63237CE8D5008B7382 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C1E62237CE8D5008B7382 /* ViewController.m */; };
-		4C5C1E66237CE8D5008B7382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5C1E64237CE8D5008B7382 /* Main.storyboard */; };
 		4C5C1E68237CE8D6008B7382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5C1E67237CE8D6008B7382 /* Assets.xcassets */; };
 		4C5C1E6B237CE8D6008B7382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5C1E69237CE8D6008B7382 /* LaunchScreen.storyboard */; };
 		4C5C1E6E237CE8D6008B7382 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C1E6D237CE8D6008B7382 /* main.m */; };
 		4C5C1E78237CE8D6008B7382 /* SSNavManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C1E77237CE8D6008B7382 /* SSNavManagerTests.m */; };
 		4C5C1E83237CE8D6008B7382 /* SSNavManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C1E82237CE8D6008B7382 /* SSNavManagerUITests.m */; };
+		4C5C1E91237CE8F9008B7382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5C1E90237CE8F9008B7382 /* Main.storyboard */; };
+		4C5C1E9F237CE91E008B7382 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C1E92237CE91D008B7382 /* NavigationViewController.m */; };
+		4C5C1EA0237CE91E008B7382 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C1E93237CE91D008B7382 /* TwoViewController.m */; };
+		4C5C1EA1237CE91E008B7382 /* UINavigationController+SSNavigationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C1E97237CE91D008B7382 /* UINavigationController+SSNavigationManager.m */; };
+		4C5C1EA3237CE91E008B7382 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C1E99237CE91D008B7382 /* ThreeViewController.m */; };
+		4C5C1EA4237CE91E008B7382 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C1E9A237CE91D008B7382 /* OneViewController.m */; };
+		4C5C1EA7237CE9C8008B7382 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5C1EA6237CE9C8008B7382 /* SceneDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +45,8 @@
 		4C5C1E5B237CE8D5008B7382 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C5C1E5C237CE8D5008B7382 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4C5C1E5E237CE8D5008B7382 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		4C5C1E5F237CE8D5008B7382 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		4C5C1E61237CE8D5008B7382 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4C5C1E62237CE8D5008B7382 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4C5C1E65237CE8D5008B7382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C5C1E67237CE8D6008B7382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C5C1E6A237CE8D6008B7382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C5C1E6C237CE8D6008B7382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +57,18 @@
 		4C5C1E7E237CE8D6008B7382 /* SSNavManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSNavManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5C1E82237CE8D6008B7382 /* SSNavManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSNavManagerUITests.m; sourceTree = "<group>"; };
 		4C5C1E84237CE8D6008B7382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C5C1E90237CE8F9008B7382 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4C5C1E92237CE91D008B7382 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		4C5C1E93237CE91D008B7382 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		4C5C1E94237CE91D008B7382 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		4C5C1E96237CE91D008B7382 /* UINavigationController+SSNavigationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SSNavigationManager.h"; sourceTree = "<group>"; };
+		4C5C1E97237CE91D008B7382 /* UINavigationController+SSNavigationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SSNavigationManager.m"; sourceTree = "<group>"; };
+		4C5C1E99237CE91D008B7382 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		4C5C1E9A237CE91D008B7382 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		4C5C1E9C237CE91E008B7382 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		4C5C1E9D237CE91E008B7382 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		4C5C1E9E237CE91E008B7382 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		4C5C1EA6237CE9C8008B7382 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,14 +119,23 @@
 		4C5C1E5A237CE8D5008B7382 /* SSNavManager */ = {
 			isa = PBXGroup;
 			children = (
+				4C5C1E95237CE91D008B7382 /* SSNavigationManager */,
 				4C5C1E5B237CE8D5008B7382 /* AppDelegate.h */,
 				4C5C1E5C237CE8D5008B7382 /* AppDelegate.m */,
 				4C5C1E5E237CE8D5008B7382 /* SceneDelegate.h */,
-				4C5C1E5F237CE8D5008B7382 /* SceneDelegate.m */,
+				4C5C1EA6237CE9C8008B7382 /* SceneDelegate.m */,
+				4C5C1E9E237CE91E008B7382 /* NavigationViewController.h */,
+				4C5C1E92237CE91D008B7382 /* NavigationViewController.m */,
 				4C5C1E61237CE8D5008B7382 /* ViewController.h */,
 				4C5C1E62237CE8D5008B7382 /* ViewController.m */,
-				4C5C1E64237CE8D5008B7382 /* Main.storyboard */,
+				4C5C1E9A237CE91D008B7382 /* OneViewController.m */,
+				4C5C1E94237CE91D008B7382 /* OneViewController.h */,
+				4C5C1E9C237CE91E008B7382 /* ThreeViewController.h */,
+				4C5C1E99237CE91D008B7382 /* ThreeViewController.m */,
+				4C5C1E9D237CE91E008B7382 /* TwoViewController.h */,
+				4C5C1E93237CE91D008B7382 /* TwoViewController.m */,
 				4C5C1E67237CE8D6008B7382 /* Assets.xcassets */,
+				4C5C1E90237CE8F9008B7382 /* Main.storyboard */,
 				4C5C1E69237CE8D6008B7382 /* LaunchScreen.storyboard */,
 				4C5C1E6C237CE8D6008B7382 /* Info.plist */,
 				4C5C1E6D237CE8D6008B7382 /* main.m */,
@@ -135,6 +159,15 @@
 				4C5C1E84237CE8D6008B7382 /* Info.plist */,
 			);
 			path = SSNavManagerUITests;
+			sourceTree = "<group>";
+		};
+		4C5C1E95237CE91D008B7382 /* SSNavigationManager */ = {
+			isa = PBXGroup;
+			children = (
+				4C5C1E96237CE91D008B7382 /* UINavigationController+SSNavigationManager.h */,
+				4C5C1E97237CE91D008B7382 /* UINavigationController+SSNavigationManager.m */,
+			);
+			path = SSNavigationManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,9 +273,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C5C1E91237CE8F9008B7382 /* Main.storyboard in Resources */,
 				4C5C1E6B237CE8D6008B7382 /* LaunchScreen.storyboard in Resources */,
 				4C5C1E68237CE8D6008B7382 /* Assets.xcassets in Resources */,
-				4C5C1E66237CE8D5008B7382 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,9 +301,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C5C1E63237CE8D5008B7382 /* ViewController.m in Sources */,
+				4C5C1EA4237CE91E008B7382 /* OneViewController.m in Sources */,
 				4C5C1E5D237CE8D5008B7382 /* AppDelegate.m in Sources */,
+				4C5C1E9F237CE91E008B7382 /* NavigationViewController.m in Sources */,
+				4C5C1EA7237CE9C8008B7382 /* SceneDelegate.m in Sources */,
+				4C5C1EA0237CE91E008B7382 /* TwoViewController.m in Sources */,
 				4C5C1E6E237CE8D6008B7382 /* main.m in Sources */,
-				4C5C1E60237CE8D5008B7382 /* SceneDelegate.m in Sources */,
+				4C5C1EA3237CE91E008B7382 /* ThreeViewController.m in Sources */,
+				4C5C1EA1237CE91E008B7382 /* UINavigationController+SSNavigationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,14 +344,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4C5C1E64237CE8D5008B7382 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C5C1E65237CE8D5008B7382 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4C5C1E69237CE8D6008B7382 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
