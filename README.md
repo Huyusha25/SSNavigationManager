@@ -56,3 +56,15 @@ Navigation简单的导航控制
 
 @end
 ```
+
+```
+// 设置当前navigationbar临时透明度-渐变
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    CGFloat maxAlphaOffset = 200;
+    CGFloat offset = scrollView.contentOffset.y;
+    CGFloat alpha = offset / maxAlphaOffset;
+    [self ss_setNavigationTempAlpha:alpha];
+}
+```
+
