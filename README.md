@@ -3,11 +3,10 @@ Navigation简单的导航控制
 ### 演示图
 ![image](https://github.com/Huyusha25/SSNavigationManager/blob/master/push.gif )
 ### 使用示例
-```
+  ```
 // 导入头文件
 #import "UINavigationController+SSNavigationManager.h"
 ```
-
 ```
 // 设置初始值
 @implementation NavigationViewController
@@ -20,7 +19,6 @@ Navigation简单的导航控制
 
 @end
 ```
-
 ```
 // 隐藏navigationbar
 @implementation ViewController
