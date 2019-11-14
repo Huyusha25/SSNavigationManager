@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SSNavigationManager"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A short description of SSNavigationManager."
 
   # This description is used to generate tags and improve search results.
