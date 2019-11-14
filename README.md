@@ -1,5 +1,7 @@
 # SSNavigationManager
 Navigation简单的导航控制
+### 演示图
+![image](https://github.com/Huyusha25/SSNavigationManager/blob/master/push.gif )
 ### 使用示例
 ```
 // 导入头文件
