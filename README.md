@@ -30,3 +30,27 @@ Navigation简单的导航控制
 
 @end
 ```
+
+```
+// 设置透明度
+@implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.ss_prefersNavigationBarAlpha = 0.5;
+}
+
+@end
+```
+
+```
+// 设置当前navigationbar颜色
+@implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.ss_prefersnavigationBarColor = [UIColor blueColor];
+}
+
+@end
+```
