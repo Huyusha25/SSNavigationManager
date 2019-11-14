@@ -67,4 +67,18 @@ Navigation简单的导航控制
     [self ss_setNavigationTempAlpha:alpha];
 }
 ```
+```
+/// 设置整个UINavigationController的颜色和透明度 默认定初始值color = white, alpha = 1
+- (void)ss_setNavigationBarColor:(UIColor *)color alpha:(CGFloat)alpha;
 
+/// 设置返回按钮图片
+@property (nonatomic, strong) UIImage *ss_navigationBackImage;
+
+/// 设置返回按钮title
+@property (nonatomic, strong) NSString *ss_navigationBackTitle;
+/// 设置返回按钮title颜色
+@property (nonatomic, strong) UIColor *ss_navigationBackTitleColor;
+/// 设置返回按钮title字体大小
+@property (nonatomic, assign) CGFloat ss_navigationBackTitleFont;
+
+```
