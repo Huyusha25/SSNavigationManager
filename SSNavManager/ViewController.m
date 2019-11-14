@@ -20,5 +20,4 @@
     self.ss_prefersNavigationBarHidden = YES;
 }
 
-
 @end

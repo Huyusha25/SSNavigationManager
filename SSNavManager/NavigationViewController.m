@@ -17,8 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // 设置初始 默认白色和1
-//    [self ss_setNavigationBarColor:[UIColor redColor] alpha:1];
+    // 设置导航初始 默认白色和1
+    [self ss_setNavigationBarColor:[UIColor redColor] alpha:1];
 }
 
 /*
