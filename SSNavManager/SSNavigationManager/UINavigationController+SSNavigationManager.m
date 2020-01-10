@@ -84,16 +84,18 @@ typedef void (^_ssVcWillAppearBlock)(UIViewController *viewController, BOOL anim
     
     UINavigationBar *navigationBar = self.navigationController.navigationBar;
     
-    CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
-    UIGraphicsBeginImageContext(rect.size);
-    CGContextRef context = UIGraphicsGetCurrentContext();
-    CGContextSetFillColorWithColor(context, [newColor CGColor]);
-    CGContextFillRect(context, rect);
+    @autoreleasepool {
+        CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
+        UIGraphicsBeginImageContext(rect.size);
+        CGContextRef context = UIGraphicsGetCurrentContext();
+        CGContextSetFillColorWithColor(context, [newColor CGColor]);
+        CGContextFillRect(context, rect);
 
-    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-
-    [navigationBar setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
+        UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+        UIGraphicsEndImageContext();
+        
+        [navigationBar setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
+    }
     self.ss_prefersnavigationBarColor = color;
     
 }
