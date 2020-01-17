@@ -1,5 +1,5 @@
 # SSNavigationManager
-Navigation简单的导航控制
+iOS Navigation导航控制
 ## cocoapods导入
 pod 'SSNavigationManager'
 
